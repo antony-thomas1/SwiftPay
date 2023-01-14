@@ -96,11 +96,19 @@ const Welcome = () => {
                     </div>
 
                     <div className=" p-5 sm:w-96 w-full flex flex-col justify-start items-center blue-glassmorphism">
+                        <div className=" border-2 border-[#ffffff4d] rounded-lg w-full justify-center items-center">
                         <Input placeholder="Address To" name="addressTo" type="text" handleChange={handleChange}/>
+                        </div>
+                        <div className=" border-2 mt-2 border-[#ffffff4d] rounded-lg w-full justify-center items-center">
                         <Input placeholder="Amount (ETH)" name="amount" type="number" handleChange={handleChange}/>
+                        </div>
+                        <div className=" border-2 mt-2 border-[#ffffff4d] rounded-lg w-full justify-center items-center">
                         <Input placeholder="Keyword (GIF)" name="keyword" type="text" handleChange={handleChange}/>
+                        </div>
+                        <div className=" border-2 mt-2 mb-4 border-[#ffffff4d] rounded-lg w-full justify-center items-center">
                         <Input placeholder="Enter message" name="message" type="text" handleChange={handleChange}/>
-
+                        </div>
+                        
                         <div className="h-[1px] w-full bg-gray-400 my-2"/>
 
                         {isLoading ? (

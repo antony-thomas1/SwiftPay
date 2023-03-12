@@ -4,7 +4,7 @@ const App = () => {
 
   return (
     <div className="min-h-screen">
-      <div className=" bg-gradient-to-b from-gray-900 to-slate-700">
+      <div className=" bg-gray-900">
         <Navbar/>
         <Welcome/>
       </div>
